@@ -1,0 +1,10 @@
+langgraph
+langchain-core
+langchain-community
+langchain-google-genai
+tavily_python
+pydantic
+fastapi
+uvicorn
+streamlit
+typing
