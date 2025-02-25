@@ -1,6 +1,11 @@
 {
     "version":2,
     "name": "SearchSage",
+    "functions": {
+        "api/*.py": {
+            "runtime": "edge"
+          }
+  },
     "builds": [{ "src": "app.py", "use": "@vercel/python" }],
     "routes": [{ "src": "/(.*)", "dest": "/app.py" }]
 }
